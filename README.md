@@ -6,32 +6,38 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-Open flie in read mode.
-### Step 2: 
- Read the text using read funcion.
-### Step 3: 
- Split the text using space separator.
-### Step 4: 
-The length of the split list should be equal to the number of words in the text file.
-### Step 5: 
-Now give print().
-### Step 6: 
-End the program.
+Create a file with .txt file extension.
+### Step 2:
+Add some texts in that file.
+### Step 3:
+Create a python file.
+### Step 4:
+Write a code to count the number of words in that file.
+### Step 5:
+Run the program.
+### Step 6:
+Display the output.
 
 ## PROGRAM:
+'''
 Developed by : S V SHADHANASHREE
 Reference number: 23013434
+'''
 ```
-num=0
-with open("file1.txt","r") as f1:
-    for i in f1:
-        word=i.split()
-        num += len(word)
-print("The number of words are in the file is ",num)
-
+def program():
+    count=0
+    with open("text.txt","r") as f:
+        for data in f:
+            words=data.split()
+            for word in words:
+                count+=1
+    print("Total number of words:",count)
+program()
 ```
 ### OUTPUT:
-![Alt text](image.png)
+![Alt text](image-1.png)
+![Alt text](image-2.png)
+![Alt text](image-3.png)
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
