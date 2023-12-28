@@ -37,7 +37,7 @@ program()
 ### OUTPUT:
 ![Alt text](image-1.png)
 ![Alt text](image-2.png)
-![Alt text](image-3.png)
+
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
